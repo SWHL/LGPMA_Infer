@@ -97,7 +97,11 @@ def inference_model(model, imgs):
         # If the input is single image
         data = dict(img=imgs)
         data = test_pipeline(data)
-        device = int(str(device).split(":")[-1])
+        device = str(device)
+        if device == 'cpu':
+            device = -1
+        else:
+            device = int(str(device).split(":")[-1])
         data = scatter(collate([data], samples_per_gpu=1), [device])[0]
     else:
         # If the input are batch of images

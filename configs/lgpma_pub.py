@@ -9,7 +9,7 @@
 ##################################################################################################
 """
 from pathlib import Path
-root_dir = Path('/da2/wangjiahua/OCR_Table/DAVAR-Lab-OCR-main/demo/table_recognition')
+root_dir = Path('.')
 
 _base_ = "./lgpma_base.py"
 

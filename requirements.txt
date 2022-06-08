@@ -1,7 +1,7 @@
-torch==1.7.1+cu101
-networkx==2.6.3
-opencv_python==4.5.3.56
-mmdet==2.10.0
-mmcv_full==1.2.4
-numpy==1.20.3
-torchvision==0.8.2+cu101
+torch
+networkx
+opencv_python
+mmcv_full
+numpy
+torchvision
+onnx-simplifier

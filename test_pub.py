@@ -22,7 +22,7 @@ vis_dir = str(root_dir / 'output')
 config_file = str(root_dir / 'configs/lgpma_pub.py')
 checkpoint_file = str(root_dir / 'models/maskrcnn-lgpma-pub-e12-pub.pth')
 
-model = init_model(config_file, checkpoint_file)
+model = init_model(config_file, checkpoint_file, 'cpu')
 
 # 可视化单张图像的cell 框结果
 img_path = 'images/table.jpg'
