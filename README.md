@@ -17,6 +17,14 @@ python test_pub.py
 # 输出结果，会在output目录下保存绘制框线的图像
 # OK
 ```
+- 结果示例：
+  - 原图：
+
+    ![](./images/table.jpg)
+
+  - 识别结果:
+
+     ![](./output/table.jpg)
 
 #### 模型转onnx
 - 状态：可以成功转换,转换时也特别耗费内存-_-!，同时因基于ONNXRuntime推理时，太耗费内存，而放弃
