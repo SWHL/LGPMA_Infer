@@ -1,10 +1,10 @@
-#### 来源于: [DAVAR-Lab-OCR](https://github.com/hikopensource/DAVAR-Lab-OCR/tree/main/demo/table_recognition/lgpma)
+#### 整理自于: [DAVAR-Lab-OCR](https://github.com/hikopensource/DAVAR-Lab-OCR/tree/main/demo/table_recognition/lgpma)
 #### 模型下载
 - [pth (Access Code: zUoX)](https://one.hikvision.com/#/link/u9YgYyoPW3hLw6iolFoA)
 - 下载之后放到`models`目录下即可
 
 #### 环境搭建
-- mmdet: 因为仓库中已经有了mmdet离线包，该包是下载的2.25.0，为了可以转onnx，里面做了一些修改，不影响现在的推理
+- `mmdet`: 该库不用安装，因为仓库中已经有了mmdet离线包，该包是下载的2.25.0，为了可以转onnx，里面做了一些修改，不影响现在的推理
 - 其他库安装：
   ```shell
   pip install -r requirements.txt -i https://pypi.douban.com/simple/
