@@ -1,4 +1,7 @@
-#### 整理自于: [DAVAR-Lab-OCR](https://github.com/hikopensource/DAVAR-Lab-OCR/tree/main/demo/table_recognition/lgpma)
+## LGPMA_Infer
+- 整理自于: [DAVAR-Lab-OCR](https://github.com/hikopensource/DAVAR-Lab-OCR/tree/main/demo/table_recognition/lgpma)
+- 因为该模型都是基于英文表格训练而来，因此对于中文表格识别能力较差，但是也具有一定的适应能力。
+
 #### 模型下载
 - [pth (Access Code: zUoX)](https://one.hikvision.com/#/link/u9YgYyoPW3hLw6iolFoA)
 - 下载之后放到`models`目录下即可
