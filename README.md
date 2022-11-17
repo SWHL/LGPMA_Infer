@@ -3,7 +3,7 @@
 - 因为该模型都是基于英文表格训练而来，因此对于中文表格识别能力较差，但是也具有一定的适应能力。
 
 #### 模型下载
-- [pth (Access Code: zUoX)](https://one.hikvision.com/#/link/u9YgYyoPW3hLw6iolFoA)
+- [pth (Access Code: zUoX)](https://one.hikvision.com/#/link/u9YgYyoPW3hLw6iolFoA) 177M 
 - 下载之后放到`models`目录下即可
 
 #### 环境搭建
