@@ -1,6 +1,7 @@
 ## LGPMA_Infer
 - 整理自于: [DAVAR-Lab-OCR](https://github.com/hikopensource/DAVAR-Lab-OCR/tree/main/demo/table_recognition/lgpma)
 - 因为该模型都是基于英文表格训练而来，因此对于中文表格识别能力较差，但是也具有一定的适应能力。
+- 相关介绍博客：[论文阅读: （ICDAR2021 海康威视）LGPMA（表格识别算法）及官方源码对应解读](http://t.csdn.cn/aToa2)
 
 #### 模型下载
 - [pth (Access Code: zUoX)](https://one.hikvision.com/#/link/u9YgYyoPW3hLw6iolFoA) 177M ResNet50
